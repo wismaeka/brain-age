@@ -1,0 +1,129 @@
+#myVideo {
+  width: 45em;
+  height: 45em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-content: center;
+  }
+@font-face{
+    font-family: aladin;
+    src: url('https://fonts.googleapis.com/css?family=Aladin')
+}
+body{
+    background-image: url('img/newbrain.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(0.2em);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.content {
+    position: fixed;
+    margin-bottom: 0;
+    top:0;
+    right:0;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 5em;
+    left: 0;
+  }
+.title{
+    font-family: aladin;
+    text-align: center;
+    font-size: 4em;
+    margin-top: 0;
+    color: bisque;
+}
+.undertitle{
+    font-family: aladin;
+    text-align: left;
+    font-size: 2.5em;
+    color:black;
+}
+.list{
+    font-family: aladin;
+    text-align: left;
+    font-size: 1.5em;
+ letter-spacing: initial;
+    color: white;
+}
+.center{
+    font-family: aladin;
+    text-align: center;
+    font-size: 1.5em;
+    margin: auto;
+}
+
+
+
+.hide{
+    display:none;  
+  }
+
+#title-info, li {
+    display: inline-block;
+    
+}
+
+ul{
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(8px); 
+    height: 100vh;
+    width: 90%;
+    color: black;
+    backdrop-filter: blur(5px);
+    float: left;
+    text-align: center;
+    padding-left: 0px;
+    
+  }
+
+  li {
+      margin-top: 50px;
+  }
+
+#question{
+    /* font-family: aladin;
+    font-size: 1.5em;
+ letter-spacing: initial;
+    color: white; */
+    position: relative;
+    width: 50%;
+    height: 50%;
+    color: white;
+    margin: 1em;
+    padding: 1em;
+    border: 1em;
+  } 
+
+.bungkus {
+    float: left;
+    margin-left: 0px;
+    padding-left: 0px;
+    border-left: 0px;
+}
+
+button {
+    margin-top: 50px;
+border-radius: 8px;
+padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+
+#start {
+    margin-top: 100px;
+}
